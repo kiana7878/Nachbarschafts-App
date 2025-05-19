@@ -5,7 +5,7 @@ name = input("Wie heißen Sie? :")
 
 nachbarn = ["Tom", "Lilly", "Anabell", "Max", "Bernd", "Greta"]
 for i in range(0, len(nachbarn)):
-    print("Liebe/-r " + nachbarn[i] + ",op " + name + " braucht ihre Hilfe bei " + eingabe)
+    print("Liebe/-r " + nachbarn[i] + ",op " + name + " braucht ihre Hilfe bei/-m " + eingabe)
     
 print("Wenn Sie helfen wollen antworten Sie mit Ja, wenn nicht mit Nein.")
 antwort = input("Wollen Sie helfen? :")
